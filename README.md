@@ -1,1 +1,1 @@
-# SuperEnalotto-Number-Generator
+# SuperEnalotto Number Generator
