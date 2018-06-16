@@ -27,7 +27,7 @@ public class Main {
 
 			Random randomGenerator = new Random();
 		    for (int idx = 1; idx <= asd; ++idx){
-		      int randomInt = randomGenerator.nextInt(99);
+		      int randomInt = randomGenerator.nextInt(90);
 		      System.out.println("Generated : " + randomInt);
 		    }
 			
