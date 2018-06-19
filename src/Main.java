@@ -16,14 +16,13 @@ public class Main {
 			 
 			 if(n == "exit") {
 				 reader.close();
+				 System.exit(1);
 				 break;
 			 }
 			
 			
 			try {
-			int icsd = 0;
-			int asd = Integer.parseInt(n);;
-			
+			int asd = Integer.parseInt(n);
 
 			Random randomGenerator = new Random();
 		    for (int idx = 1; idx <= asd; ++idx){
