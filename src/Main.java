@@ -16,9 +16,8 @@ public class Main {
 			 
 			 if(n == "exit") {
 				 reader.close();
-				 System.exit(1);
-				 break;
-			 }
+				 System.exit(0);
+			}
 			
 			
 			try {
