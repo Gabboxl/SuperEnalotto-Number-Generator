@@ -19,7 +19,6 @@ public class Main {
 				 System.exit(0);
 			}
 			
-			
 			try {
 			int asd = Integer.parseInt(n);
 
