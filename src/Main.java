@@ -14,7 +14,8 @@ public class Main {
 			 n = reader.nextLine(); // Scans the next token of the input as an int.
 			 
 			 
-			 if(n == "exit") {
+			 if(n.equals("exit")) {
+			 	System.out.println("\n Thx for using SuperEnalotto Number Generator - ");
 				 reader.close();
 				 System.exit(0);
 			}
@@ -29,8 +30,8 @@ public class Main {
 		    }
 			
 			System.out.println("\n");
-			} catch(Exception e) {
-				System.out.println(e);
+			} catch(java.lang.NumberFormatException e) {
+				System.out.println("\n Insert a number thx \n");
 			}
 			
 		}
